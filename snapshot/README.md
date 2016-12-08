@@ -33,7 +33,7 @@ snapshot
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/fastlane/fastlane/blob/master/snapshot/LICENSE)
 [![Gem](https://img.shields.io/gem/v/snapshot.svg?style=flat)](http://rubygems.org/gems/snapshot)
 
-###### Automate taking localized screenshots of your iOS app on every device
+###### Automate taking localized screenshots of your iOS and tvOS apps on every device
 
 <hr />
 <h4 align="center">
@@ -41,7 +41,7 @@ snapshot
 </h4>
 <hr />
 
-_snapshot_ generates localized iOS screenshots for different device types and languages for the App Store and can be uploaded using ([`deliver`](https://github.com/fastlane/fastlane/tree/master/deliver)).
+_snapshot_ generates localized iOS and tvOS screenshots for different device types and languages for the App Store and can be uploaded using ([`deliver`](https://github.com/fastlane/fastlane/tree/master/deliver)).
 
 You have to manually create 20 (languages) x 6 (devices) x 5 (screenshots) = **600 screenshots**.
 
@@ -73,7 +73,7 @@ Get in contact with the developer on Twitter: [@FastlaneTools](https://twitter.c
 
 -------
 
-<h5 align="center"><code>snapshot</code> is part of <a href="https://fastlane.tools">fastlane</a>: The easiest way to automate building and releasing your iOS and Android apps.</h5>
+<h5 align="center"><code>snapshot</code> is part of <a href="https://fastlane.tools">fastlane</a>: The easiest way to automate beta deployments and releases for your iOS and Android apps.</h5>
 
 # Features
 - Create hundreds of screenshots in multiple languages on all simulators
@@ -254,7 +254,7 @@ add_photos ["MyTestApp/Assets/demo.jpg"]
 
 ### Completely reset all simulators
 
-You can run this command in the terminal to delete and re-create all iOS simulators:
+You can run this command in the terminal to delete and re-create all iOS and tvOS simulators:
 
 ```
 snapshot reset_simulators
@@ -344,7 +344,7 @@ Also, feel free to duplicate radar [23062925](https://openradar.appspot.com/rada
 
 ## [`fastlane`](https://fastlane.tools) Toolchain
 
-- [`fastlane`](https://fastlane.tools): The easiest way to automate building and releasing your iOS and Android apps
+- [`fastlane`](https://fastlane.tools): The easiest way to automate beta deployments and releases for your iOS and Android apps
 - [`deliver`](https://github.com/fastlane/fastlane/tree/master/deliver): Upload screenshots, metadata and your app to the App Store
 - [`frameit`](https://github.com/fastlane/fastlane/tree/master/frameit): Quickly put your screenshots into the right device frames
 - [`PEM`](https://github.com/fastlane/fastlane/tree/master/pem): Automatically generate and renew your push notification profiles
